@@ -14,11 +14,15 @@ def sum_of_3_or_5_multiples(n)
 
 	sum=0
 
-	   for i in (0..1000) do
+	   for i in (0..n-1) do
 
 	      if is_multiple_of_3_or_5?(i)
 
 		 sum = sum + i
+
+#	      else
+
+#	         return "Yo ! Je ne prends que les entiers naturels."
 
 	      end
 
