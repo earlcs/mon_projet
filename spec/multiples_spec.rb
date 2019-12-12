@@ -28,10 +28,10 @@ describe "the sum_of_3_or_5_multiples method" do
     expect(sum_of_3_or_5_multiples(0)).to eq(0)
   end
 
-#  it "should return an error if it's not an integer" do
-#    expect(sum_of_3_or_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers naturels.")
-#    expect(sum_of_3_or_5_multiples(1.23)).to eq("Yo ! Je ne prends que les entiers naturels.")
-#    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Yo ! Je ne prends que les entiers naturels.")
-#  end
+  it "should return an error if it's not an integer" do
+    expect(sum_of_3_or_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers naturels.")
+    expect(sum_of_3_or_5_multiples(1.23)).to eq("Yo ! Je ne prends que les entiers naturels.")
+    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Yo ! Je ne prends que les entiers naturels.")
+  end
 
 end
