@@ -25,7 +25,7 @@ describe "the sum_of_3_or_5_multiples method" do
     expect(sum_of_3_or_5_multiples(10)).to eq(23)
     expect(sum_of_3_or_5_multiples(11)).to eq(33)
     expect(sum_of_3_or_5_multiples(0)).to eq(0)
-    expect(sum_of_3_or_5_multiples(0)).to eq(0)
+    expect(sum_of_3_or_5_multiples(3)).to eq(0)
   end
 
   it "should return an error if it's not an integer" do
